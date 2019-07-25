@@ -50,8 +50,8 @@ class ViewController: UIViewController {
                                            delegate: self)
         tappableLabelView = TappableLabelView(frame: .zero, options: options)
         tappableLabelView.translatesAutoresizingMaskIntoConstraints = false
-        tappableLabelView.text = "I have a UICollectionViewCell drawn out in a xib and accompanied by swift class file. These two files are part of my app's UI framework target (called SomeUI). In the view controller of my collection view (in the app target) I register the nib as a collection view cell. My view controller code is as follows hI have a UICollectionViewCell drawn out in a xib"
-        tappableLabelView.tappableStrings = ["collection", "register", "cell.", "UICollectionViewCell"]
+        tappableLabelView.text = "Waterfalls are commonly formed in the upper course of a river in steep mountains.[1] Because of their landscape position, many waterfalls occur over bedrock fed by little contributing area, so may be ephemeral and flow only during rainstorms or significant snowmelt. The further downstream, the more perennial a waterfall can be. Waterfalls can have a wide range of widths and depths."
+        tappableLabelView.tappableStrings = ["Waterfalls", "rainstorms", "snowmelt.", "formed"]
         view.addSubview(tappableLabelView)
         NSLayoutConstraint.activate([
                 tappableLabelView.heightAnchor.constraint(equalToConstant: 200),

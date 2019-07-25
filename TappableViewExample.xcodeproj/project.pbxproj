@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		688B84D9F66B366EB2B86824 /* Pods_TappableViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AE3461C1FD5AB6560ED544 /* Pods_TappableViewExample.framework */; };
+		16D75060FB07F98F1705BC23 /* Pods_TappableViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E781F67BCEF274730164BBAF /* Pods_TappableViewExample.framework */; };
 		70D6008F22E17135002DCD37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D6008E22E17135002DCD37 /* AppDelegate.swift */; };
 		70D6009122E17135002DCD37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D6009022E17135002DCD37 /* ViewController.swift */; };
 		70D6009422E17135002DCD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D6009222E17135002DCD37 /* Main.storyboard */; };
@@ -16,8 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1CD71E7E3AE641D65A44668D /* Pods-TappableViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappableViewExample.release.xcconfig"; path = "Target Support Files/Pods-TappableViewExample/Pods-TappableViewExample.release.xcconfig"; sourceTree = "<group>"; };
-		51F554C38EA361567159C58A /* Pods-TappableViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappableViewExample.debug.xcconfig"; path = "Target Support Files/Pods-TappableViewExample/Pods-TappableViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 		70D6008B22E17135002DCD37 /* TappableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TappableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D6008E22E17135002DCD37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70D6009022E17135002DCD37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +23,9 @@
 		70D6009522E17138002DCD37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70D6009822E17138002DCD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70D6009A22E17138002DCD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5AE3461C1FD5AB6560ED544 /* Pods_TappableViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappableViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF515C27BA34E461004D3F0 /* Pods-TappableViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappableViewExample.release.xcconfig"; path = "Target Support Files/Pods-TappableViewExample/Pods-TappableViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		CBFDE034998B4253C036D7AD /* Pods-TappableViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappableViewExample.debug.xcconfig"; path = "Target Support Files/Pods-TappableViewExample/Pods-TappableViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E781F67BCEF274730164BBAF /* Pods_TappableViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappableViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				688B84D9F66B366EB2B86824 /* Pods_TappableViewExample.framework in Frameworks */,
+				16D75060FB07F98F1705BC23 /* Pods_TappableViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +46,7 @@
 				70D6008D22E17135002DCD37 /* TappableViewExample */,
 				70D6008C22E17135002DCD37 /* Products */,
 				B33CD3190445221FAEB4CD0E /* Pods */,
-				F1B2662C6C49C2D9279A3C23 /* Frameworks */,
+				77ADE390A94FC3EACE84914B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,21 +71,21 @@
 			path = TappableViewExample;
 			sourceTree = "<group>";
 		};
+		77ADE390A94FC3EACE84914B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E781F67BCEF274730164BBAF /* Pods_TappableViewExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B33CD3190445221FAEB4CD0E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				51F554C38EA361567159C58A /* Pods-TappableViewExample.debug.xcconfig */,
-				1CD71E7E3AE641D65A44668D /* Pods-TappableViewExample.release.xcconfig */,
+				CBFDE034998B4253C036D7AD /* Pods-TappableViewExample.debug.xcconfig */,
+				8FF515C27BA34E461004D3F0 /* Pods-TappableViewExample.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F1B2662C6C49C2D9279A3C23 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C5AE3461C1FD5AB6560ED544 /* Pods_TappableViewExample.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,12 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70D6009D22E17138002DCD37 /* Build configuration list for PBXNativeTarget "TappableViewExample" */;
 			buildPhases = (
-				0B11576022263A31182DC132 /* [CP] Check Pods Manifest.lock */,
+				C4A83685F1F104EAB7FD911C /* [CP] Check Pods Manifest.lock */,
 				70D6008722E17135002DCD37 /* Sources */,
 				70D6008822E17135002DCD37 /* Frameworks */,
 				70D6008922E17135002DCD37 /* Resources */,
-				0D9EE9C0969C4AD76D322D88 /* [CP] Embed Pods Frameworks */,
 				70F02EE622E4CE5700B8B1A7 /* swiftlint */,
+				1C4F858EA5017FCD2D850C85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,29 +158,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B11576022263A31182DC132 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TappableViewExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0D9EE9C0969C4AD76D322D88 /* [CP] Embed Pods Frameworks */ = {
+		1C4F858EA5017FCD2D850C85 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,6 +192,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C4A83685F1F104EAB7FD911C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TappableViewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -367,7 +367,7 @@
 		};
 		70D6009E22E17138002DCD37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51F554C38EA361567159C58A /* Pods-TappableViewExample.debug.xcconfig */;
+			baseConfigurationReference = CBFDE034998B4253C036D7AD /* Pods-TappableViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -386,7 +386,7 @@
 		};
 		70D6009F22E17138002DCD37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CD71E7E3AE641D65A44668D /* Pods-TappableViewExample.release.xcconfig */;
+			baseConfigurationReference = 8FF515C27BA34E461004D3F0 /* Pods-TappableViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

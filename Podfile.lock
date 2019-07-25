@@ -4,20 +4,17 @@ PODS:
 
 DEPENDENCIES:
   - Marker
-  - TappableLabelView (from `../TappableLabelView`)
+  - TappableLabelView (= 1.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Marker
-
-EXTERNAL SOURCES:
-  TappableLabelView:
-    :path: "../TappableLabelView"
+    - TappableLabelView
 
 SPEC CHECKSUMS:
   Marker: b8f775718b2cf7c872956b9b5413121b0ce56de5
-  TappableLabelView: 8e5a5119c034059553e69d2363becbb1f7a13258
+  TappableLabelView: ff314878c19b46f3af22c53cc5bd055ec2dde5f3
 
-PODFILE CHECKSUM: 393ac715a02c0a1f39c7fb5ceba6ee859696448d
+PODFILE CHECKSUM: d8db2ec025c8ad7feaa16c006ecc920728960a6f
 
 COCOAPODS: 1.7.4
