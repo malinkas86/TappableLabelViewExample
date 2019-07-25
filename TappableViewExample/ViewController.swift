@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let options = ConfigurationOptions(textAttributes: textStyle.attributes,
                                            highlightedTextAttributes: highlightedTextStyle.attributes,
-                                           alignment: .center,
+                                           alignment: .justified,
                                            isUnderline: true,
                                            wordSpacing: 5,
                                            lineSpacing: 6,
@@ -55,7 +55,6 @@ class ViewController: UIViewController {
         view.addSubview(tappableLabelView)
         NSLayoutConstraint.activate([
                 tappableLabelView.heightAnchor.constraint(equalToConstant: 200),
-                tappableLabelView.widthAnchor.constraint(equalTo: view.widthAnchor),
                 tappableLabelView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
                 tappableLabelView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
                 tappableLabelView.topAnchor.constraint(equalTo: view.topAnchor)
