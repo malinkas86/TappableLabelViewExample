@@ -69,7 +69,11 @@ extension ViewController: TappableLabelViewDelegate {
     
     func didTap(tappableLabelView: TappableLabelView, text: String, indexInText: Int, index: Int) {
         if self.tappableLabelView == tappableLabelView {
-            print("text: \(text) indexInText: \(indexInText) index: \(index)")
+            let alert = UIAlertController(title: "Yay!!!",
+                                          message: "text: \(text) indexInText: \(indexInText) index: \(index)",
+                preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            present(alert, animated: true, completion: nil)
         }
     }
 
